@@ -1,8 +1,12 @@
 {
-  "name": "@dwkns/theultimatequestion",
-  "version": "1.0.2",
-  "description": "Gives the answer to the ultimate question",
+  "name": "@dwkns/the-ultimate-question",
+  "version": "0.0.1",
+  "description": "Gives the answer to the ultimate question.",
   "main": "index.js",
+  "dependencies": {
+    "fsevents": "^2.3.3",
+    "rollup": "^4.39.0"
+  },
   "scripts": {
     "pub": "#### use ./bin/publish ### to publlish to npm",
     "build": "npx rollup -c"
