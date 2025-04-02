@@ -1,0 +1,24 @@
+{
+  "name": "@dwkns/theultimatequestion",
+  "version": "1.0.2",
+  "description": "Gives the answer to the ultimate question",
+  "main": "index.js",
+  "scripts": {
+    "pub": "#### use ./bin/publish ### to publlish to npm",
+    "build": "npx rollup -c"
+  },
+  "author": "dwkns",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwkns/the-ultimate-question.git"
+  },
+  "type": "module",
+  "exports": {
+    "import": "./index.js",
+    "require": "./index.cjs"
+  },
+  "devDependencies": {
+    "rollup": "^4.35.0"
+  }
+}
